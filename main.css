@@ -1,0 +1,33 @@
+* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} *
+
+body {
+    width: 500px;
+    height: 500px;
+    
+    
+}
+
+.main {
+    width: 500px;
+    height: 500px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px
+}
+
+
+.buttons ul li {
+    height: 80px;
+    background-color: #89DEEF;
+    padding: 3px;
+    font-size: 10px;
+    list-style-type: none; 
+    display: inline-block; 
+}
