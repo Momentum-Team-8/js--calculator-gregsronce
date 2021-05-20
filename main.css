@@ -5,18 +5,19 @@
 } *
 
 .container {
+    width: 400px;
+    height: 500px;
     font-size: 70px;
     color: white;
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
-    width: 400px;
+    
 }
 
 .buttons {
     width: 100px;
     height: 100px;
-    background-color: #4CAF50;
+    background-color: #1bc420;
     display: flex;
     justify-content: center;
     align-items: center;
