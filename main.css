@@ -1,33 +1,28 @@
-* * {
+  * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 } *
 
-body {
-    width: 500px;
+.container {
+    font-size: 70px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
     height: 500px;
-    
-    
-}
-
-.main {
-    width: 500px;
-    height: 500px;
+    width: 400px;
 }
 
 .buttons {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
     display: flex;
-    flex-wrap: wrap;
-    height: 80px
+    justify-content: center;
+    align-items: center;
 }
 
-
-.buttons ul li {
-    height: 80px;
-    background-color: #89DEEF;
-    padding: 3px;
-    font-size: 10px;
-    list-style-type: none; 
-    display: inline-block; 
+.button-output {
+    width: 300px;
+    background-color: #f6fa04;
 }
